@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nisi dolor id velit minima ullam autem commodi, vero totam itaque in suscipit iure, cupiditate ipsa. Accusantium ipsum est pariatur voluptatibus quibusdam temporibus officia cupiditate porro.",
+    "color": "707020",
+    "hero": "http://fillmurray.com/1000/1000",
+    "size": 12
+  },{
+    "title": "Id molestias saepe impedit qui, aspernatur, cumque tempora amet.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente saepe quo ab sit delectus, a molestiae quidem officia deleniti. Quae!",
+    "color": "123456",
+    "hero": "http://fillmurray.com/1000/200",
+    "size": 4
+  },{
+    "title": "Voluptas atque velit aliquid ipsam, ab dolor praesentium porro.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur elit. Optio in minima natus, explicabo!",
+    "color": "098765",
+    "hero": "http://fillmurray.com/1000/300",
+    "size": 4
+  },{
+    "title": "Commodi deleniti doloremque nulla dolore, dicta, cumque quo rem.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nisi dolor id velit minima ullam autem commodi, vero totam itaque in suscipit iure, cupiditate ipsa. Accusantium ipsum est pariatur voluptatibus quibusdam temporibus officia cupiditate porro.",
+    "color": "0a9b8c",
+    "hero": "http://fillmurray.com/1000/400",
+    "size": 4
+  },{
+    "title": "Laudantium adipisci, illum dolores. Aliquam ad impedit, iusto doloribus.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum porro vero, incidunt sed nam dolores aliquid impedit, beatae, sit maiores nulla adipisci quibusdam, reprehenderit quis.",
+    "color": "f00ba2",
+    "hero": "http://fillmurray.com/1000/500",
+    "size": 5
+  },{
+    "title": "Exercitationem consequuntur, ad aut minus sed fugit repellat repellendus.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur elit. Optio in minima natus, explicabo!",
+    "color": "912a73",
+    "hero": "http://fillmurray.com/1000/600",
+    "size": 7
+  },{
+    "title": "Beatae neque, deserunt recusandae temporibus excepturi accusamus nobis dicta.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum porro vero, incidunt sed nam dolores aliquid impedit, beatae, sit maiores nulla adipisci quibusdam, reprehenderit quis.",
+    "color": "b00b13",
+    "hero": "http://fillmurray.com/1000/700",
+    "size": 3
+  },{
+    "title": "Unde est hic sapiente debitis, modi amet aut sequi!",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nisi dolor id velit minima ullam autem commodi, vero totam itaque in suscipit iure, cupiditate ipsa. Accusantium ipsum est pariatur voluptatibus quibusdam temporibus officia cupiditate porro.",
+    "color": "550055",
+    "hero": "http://fillmurray.com/1000/800",
+    "size": 9
+  },{
+    "title": "Aspernatur assumenda modi rem fugiat itaque, nesciunt placeat aliquam.",
+    "excerpt": "Lorem ipsum dolor sit amet.",
+    "color": "01d1e5",
+    "hero": "http://fillmurray.com/1000/900",
+    "size": 6
+  },{
+    "title": "Possimus magnam explicabo dolorum doloremque consequuntur repellat, pariatur adipisci.",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "color": "acc355",
+    "hero": "http://fillmurray.com/1000/100",
+    "size": 6
+  }
+]

@@ -1,0 +1,84 @@
+//    DEBUGGING REDLINE
+
+html.redline * {
+	box-shadow: inset -1px -1px 0 rgba(255,0,0,0.3), inset 1px 1px 0 rgba(255,0,0,0.3);
+}
+
+#grid-ruler-extension * {
+	box-shadow: none !important;
+}
+@import "base/functions"; // Scss functions that I use a lot
+@import "base/mixins"; // Scss Mixins that I use a lot
+@import "base/animations"; // Useful Animations
+@import "base/variables"; // Define the site variables
+@import "base/normal"; // Level the playing field
+@import "base/grid"; // Flexbox Grid
+@import "base/global"; // Global styles
+@import "typography/base"; // Define the basic typeface styles for use throughout the site
+@import "typography/typography"; // Elaborate on the basic typefaces for use in specific areas
+@import "typography/links"; // Styling for <a> tags
+@import "typography/bullets"; // Styling for bullet-pointed lists
+@import "elements/buttons"; // Button styles
+@import "elements/forms"; // Form styles
+
+[class^="item-"] {
+	@extend .richie;
+	background: #fefefe;
+	color: $clr_black;
+	box-shadow: -1px -1px 0 rgba($clr_black, 0.1), 1px 1px 0 rgba($clr_black, 0.1);
+	position: relative;
+	padding-bottom: 3rem;
+
+	.inner {
+		padding: 1rem;
+	}
+
+	a {
+		position: absolute;
+		bottom: 0;
+		display: block;
+		@extend .paulie;
+		text-decoration: none;
+		color: inherit;
+		margin-top: 1rem;
+		position: relative;
+		.arrow {
+			display: inline-block;
+			margin-left: 0.5rem;
+			opacity: 0;
+		}
+		.underline {
+			display: block;
+			position: absolute;
+			right: 0;
+			bottom: -0.5rem;
+			height: 4px;
+			z-index: 1;
+		}
+
+		&:hover {
+			.underline {
+				animation: underline 1 $speed-slow;
+			}
+			.arrow {
+				animation: arrowbounce 1 $speed-slow ($speed-slow / 2);
+			}
+		}
+	}
+
+	img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	h2 {
+		@extend .paulie;
+		padding: 0.5rem 0;
+	}
+
+	p {
+		display: block;
+		padding: 0.5rem 0;
+	}
+}
